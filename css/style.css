@@ -646,7 +646,6 @@ a { text-decoration: none; color: inherit; }
   .logo__img { height: 38px; }
   .grid--2, .grid--3, .grid--4, .course-grid { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: repeat(2, 1fr); gap: .9rem; }
-  .hero__photo { inset: 8% -4% -6% -4%; }
   .form__row { grid-template-columns: 1fr; }
   .hero__proof { gap: 1.6rem; }
   .footer__inner { grid-template-columns: 1fr; gap: 2rem; }
