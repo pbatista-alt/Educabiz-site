@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
 
@@ -96,19 +96,23 @@
       <div class="gallery">
         <figure class="gallery__item reveal">
           <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=70" alt="Bebé a brincar com brinquedos num berçário" loading="lazy">
-          <figcaption>Berçários e creches acompanhados ao detalhe</figcaption>
+          <span class="gallery__time">08h30</span>
+          <figcaption>Chegada com registo por QR Code</figcaption>
         </figure>
         <figure class="gallery__item reveal">
           <img src="https://images.unsplash.com/photo-1554343594-1c9d305bd51f?auto=format&fit=crop&w=800&q=70" alt="Criança pequena a explorar brinquedos numa sala de atividades da creche" loading="lazy">
-          <figcaption>Rotinas diárias partilhadas com os pais</figcaption>
+          <span class="gallery__time">10h00</span>
+          <figcaption>Atividades planeadas no banco da comunidade</figcaption>
         </figure>
         <figure class="gallery__item reveal">
           <img src="https://images.unsplash.com/photo-1537655780520-1e392ead81f2?auto=format&fit=crop&w=800&q=70" alt="Toddler a brincar no infantário com supervisão da educadora" loading="lazy">
-          <figcaption>Observações e avaliação simplificadas</figcaption>
+          <span class="gallery__time">12h30</span>
+          <figcaption>Rotinas de refeição e sesta registadas por voz</figcaption>
         </figure>
         <figure class="gallery__item reveal">
           <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=70" alt="Crianças pequenas a brincar em conjunto na sala da creche" loading="lazy">
-          <figcaption>Portefólios digitais com momentos especiais</figcaption>
+          <span class="gallery__time">17h00</span>
+          <figcaption>Portefólio do dia partilhado com as famílias</figcaption>
         </figure>
       </div>
     </div>
@@ -221,25 +225,40 @@
 
   <!-- Academia -->
   <section class="section section--dark" id="academia">
-    <div class="container academia">
-      <div class="academia__content reveal">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
         <span class="kicker kicker--light">Formação integrada</span>
         <h2>Academia Educabiz</h2>
         <p>Capacite toda a equipa educativa com ferramentas, conhecimento e inspiração. A formação contínua mais acessível, rigorosa e compatível com o dia a dia — porque cada criança merece profissionais preparados.</p>
-        <ul class="checks">
-          <li>Dezenas de cursos e webinars de 1h</li>
-          <li>8 cursos novos por mês (2 por semana)</li>
-          <li>Formadores de referência nacionais e internacionais</li>
-          <li>Certificado individual no final de cada formação</li>
-          <li>Gestão automática das horas de formação</li>
-          <li>Relatórios e declarações anuais para a direção</li>
-        </ul>
       </div>
-      <div class="academia__visual reveal">
-        <div class="chip chip--blue"><span class="chip__icon">🎓</span><div><strong>Dezenas de cursos</strong><small>e webinars de 1h</small></div></div>
-        <div class="chip chip--green"><span class="chip__icon">🆕</span><div><strong>8 cursos novos</strong><small>por mês — 2 por semana</small></div></div>
-        <div class="chip chip--yellow"><span class="chip__icon">🌍</span><div><strong>Formadores de referência</strong><small>nacionais e internacionais</small></div></div>
-        <div class="chip chip--pink"><span class="chip__icon">📜</span><div><strong>Certificado individual</strong><small>no final de cada formação</small></div></div>
+      <div class="course-grid">
+        <article class="course-card reveal">
+          <span class="course-card__icon">🎓</span>
+          <h3>Cursos e webinares</h3>
+          <p>Dezenas de formações de 1h, com formadores de referência nacionais e internacionais.</p>
+          <small class="course-card__meta">8 cursos novos por mês · 2 por semana</small>
+        </article>
+        <article class="course-card reveal">
+          <span class="course-card__icon">📜</span>
+          <h3>Certificação individual</h3>
+          <p>Certificado no final de cada formação, emitido automaticamente para cada membro da equipa.</p>
+          <small class="course-card__meta">Válido para as horas obrigatórias</small>
+        </article>
+        <article class="course-card reveal">
+          <span class="course-card__icon">⏱️</span>
+          <h3>Gestão automática</h3>
+          <p>As horas de formação de cada colaborador são contabilizadas sem qualquer trabalho extra.</p>
+          <small class="course-card__meta">Zero burocracia para a equipa</small>
+        </article>
+        <article class="course-card reveal">
+          <span class="course-card__icon">📊</span>
+          <h3>Relatórios para a direção</h3>
+          <p>Relatórios e declarações anuais prontos a entregar, com o histórico completo de formação.</p>
+          <small class="course-card__meta">Exportáveis num clique</small>
+        </article>
+      </div>
+      <div class="academia__cta reveal">
+        <a href="#proposta" class="btn btn--primary btn--lg">Explorar a Academia</a>
       </div>
     </div>
   </section>
