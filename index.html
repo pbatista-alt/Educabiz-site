@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Educabiz — A tecnologia ao serviço da pedagogia</title>
   <meta name="description" content="Plataforma nº 1 em Portugal para berçários, creches, infantários, centros de estudo e ATL. Gestão, pedagogia e comunicação com famílias num só lugar.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231A73E8'/%3E%3Ctext x='32' y='45' font-family='Ubuntu,sans-serif' font-weight='700' font-size='38' fill='white' text-anchor='middle'%3Ee%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,8 +16,11 @@
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#" class="logo">
-        <span class="logo__mark">E</span>
+      <a href="#" class="logo" aria-label="Educabiz">
+        <svg class="logo__mark" viewBox="0 0 44 44" aria-hidden="true">
+          <rect width="44" height="44" rx="12" fill="#1A73E8"/>
+          <path d="M31 19.5c-1.2-3.4-4.2-5.3-8.4-5.3-5.4 0-9.2 3.8-9.2 9.1s3.7 9.1 9.3 9.1c4.9 0 8.2-2.8 8.6-7.3h-8.8v-3.4h12.6c0 .8.1 1.5.1 2.1 0 7-4.8 11.8-12.4 11.8-7.9 0-13.4-5.5-13.4-12.3S14.3 10.5 22.4 10.5c5.9 0 10.3 3 11.9 7.6z" transform="translate(1.5 -2.5) scale(0.92)" fill="#fff"/>
+        </svg>
         <span class="logo__text">educa<b>biz</b></span>
       </a>
       <nav class="nav" id="nav">
@@ -59,6 +63,7 @@
         </ul>
       </div>
       <div class="hero__visual reveal">
+        <img class="hero__photo" src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=900&q=70" alt="Educadora a ler um livro ilustrado a um grupo de crianças numa sala de aula luminosa" loading="lazy">
         <div class="mockup">
           <div class="mockup__bar"><i></i><i></i><i></i><span>app.educabiz.com</span></div>
           <div class="mockup__body">
@@ -92,6 +97,34 @@
       <span>✓ App Android &amp; iOS</span>
       <span>✓ Conforme o RGPD</span>
       <span>✓ Suporte e formação incluídos</span>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section class="section section--gallery">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <span class="kicker">Um dia com a Educabiz</span>
+        <h2>Perto de quem educa, perto das famílias</h2>
+      </div>
+      <div class="gallery">
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=70" alt="Crianças a participar numa atividade na sala de aula com a educadora" loading="lazy">
+          <figcaption>Atividades planificadas com objetivos pedagógicos</figcaption>
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1540479859555-17af45c78602?auto=format&fit=crop&w=800&q=70" alt="Crianças do infantário a brincar em conjunto" loading="lazy">
+          <figcaption>Rotinas diárias partilhadas com os pais</figcaption>
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=70" alt="Sala de atividades de um infantário com crianças e educadora" loading="lazy">
+          <figcaption>Observações e avaliação simplificadas</figcaption>
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?auto=format&fit=crop&w=800&q=70" alt="Educadora a acompanhar um grupo de crianças em idade pré-escolar" loading="lazy">
+          <figcaption>Portefólios digitais com momentos especiais</figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 
@@ -306,8 +339,11 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <a href="#" class="logo logo--light">
-          <span class="logo__mark">E</span>
+        <a href="#" class="logo logo--light" aria-label="Educabiz">
+          <svg class="logo__mark" viewBox="0 0 44 44" aria-hidden="true">
+            <rect width="44" height="44" rx="12" fill="#1A73E8"/>
+            <path d="M31 19.5c-1.2-3.4-4.2-5.3-8.4-5.3-5.4 0-9.2 3.8-9.2 9.1s3.7 9.1 9.3 9.1c4.9 0 8.2-2.8 8.6-7.3h-8.8v-3.4h12.6c0 .8.1 1.5.1 2.1 0 7-4.8 11.8-12.4 11.8-7.9 0-13.4-5.5-13.4-12.3S14.3 10.5 22.4 10.5c5.9 0 10.3 3 11.9 7.6z" transform="translate(1.5 -2.5) scale(0.92)" fill="#fff"/>
+          </svg>
           <span class="logo__text">educa<b>biz</b></span>
         </a>
         <p>A tecnologia ao serviço da pedagogia. A aplicação para a infância mais utilizada em Portugal.</p>
